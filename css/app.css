@@ -154,6 +154,7 @@ a.navbar-link:hover {
   margin: 0;
   height: 28px;
   width: 50px;
+  display: block;
   background: url(../img/sprite-sheet.png) no-repeat top left;
   background-position: 0px -57px;
   background-size: 50px;
