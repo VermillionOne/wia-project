@@ -1,0 +1,211 @@
+/* Tag
+************************/
+header h1 {
+  display: inline-block;
+}
+header h1 a {
+  color: #eff;
+  text-decoration: none;
+}
+header h1 a:hover {
+  color: #eff;
+}
+section .row {
+  padding: 30px 0 0;
+  position: relative;
+  margin: 0 0 20px 0;
+}
+figure {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+footer {
+  background: #5c5c5c;
+  padding: 30px 0;
+  color: #eee;
+}
+footer a {
+  color: rgb(183, 200, 231);
+  text-decoration: none;
+}
+footer .column {
+  min-height: 400px;
+}
+/* IDs
+************************/
+#lanePool {
+  float: right;
+  margin: 0 20px 0 0;
+  display: none;
+}
+#piechart {
+  float: right;
+}
+/* Classes
+************************/
+.main-header {
+  background: #c84343;
+  box-shadow: 0 2px 0 rgb(112, 30, 30), inset 0 -10px 30px rgba(255, 255, 255, 0.05),inset 0 -5px 15px rgba(255, 255, 255, 0.05),inset 0 -2px 8px rgba(255, 255, 255, 0.05);
+  text-shadow: 0 -1px 0 rgb(112, 30, 30);
+  color: #dff;
+}
+.hero-section {
+  padding: 0;
+  margin: 0;
+  -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+.hero-section .five {
+  padding: 50px 0 0 0;
+}
+.hero-section a {
+  color: initial;
+}
+.pool-drawing {
+  width: 450px;
+  margin: 50px 0 50px 75px;
+  display: none;
+}
+.navbar-list {
+  list-style: none;
+  margin: 10px 0 0 0;
+  float: right;
+}
+.navbar-item {
+  position: relative;
+  float: left;
+  margin-bottom: 0;
+  display: block;
+  margin: 0 0 0 15px;
+}
+.navbar-link {
+  display: block;
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: .2rem;
+  margin: 0 0 0 35px;
+  text-decoration: none;
+  line-height: 6.5rem;
+  color: #eff;
+}
+a.navbar-link:hover {
+  color: rgba(255, 209, 131, 1);
+}
+.navbar-link.active {
+  color: rgb(159, 65, 65);
+}
+.sw-outdoors {
+  color: #eff;
+  font-weight: 400;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.75);
+}
+.red-cross-logo {
+  width: 95%;
+  display: block;
+  margin: 0 0 0 0px;
+}
+.fighting-fish {
+  width: 100%;
+}
+.fighting-fish-image {
+  width: 100%;
+}
+.right-section {
+  border-right: 1px solid #223;
+  padding: 0 20px;
+}
+.section-title {
+  margin: 20px 0 0;
+  background: #70b8e5;
+  padding: 10px 20px;
+  box-shadow: 0 2px 0 rgb(40, 110, 139);
+  text-shadow: 0 -1px 0 rgb(40, 110, 139);
+  color: #fff;
+  width: 150%;
+  border-radius: 2px;
+}
+.section-title i {
+  opacity: 0;
+}
+.section-title span {
+  display: none;
+}
+.classes-section h3 {
+  font-size: 2em;
+  margin: 0;
+}
+.classes-section header {
+  border-right: solid 1px #c84343;
+  min-height: 100px;
+}
+.classes-section header p {
+  margin: 0;
+}
+.area-map {
+  height: 340px;
+  background: url(/img/henderson-boulder-map.png) no-repeat top left;
+  background-size: 650px;
+  border-radius: 3px;
+}
+.area-map p {
+  margin: 0;
+  height: 28px;
+  width: 50px;
+  background: url(/img/sprite-sheet.png) no-repeat top left;
+  background-position: 0px -57px;
+  background-size: 50px;
+  position: absolute;
+  cursor: pointer;
+}
+.area-map p:hover {
+  background-position: 0px 0px;
+}
+.area-map p.active {
+  background-position: 0px -29px;
+}
+.area-map p:nth-child(1) {
+  top: 235px;
+  left: 205px;
+}
+.area-map p:nth-child(2) {
+  top: 150px;
+  left: 227px;
+}
+.area-map p:nth-child(3) {
+  top: 215px;
+  left: 355px;
+}
+.area-map p:nth-child(4) {
+  top: 300px;
+  left: 490px;
+}
+.location {
+  display: none;
+}
+.location.active {
+  display: block;
+}
+.parallax-img video {
+  display: none;
+}
+/* Skeleton Classes
+************************/
+.row, .column, .columns, .one-third {
+  position: relative;
+}
+.column, .columns {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.two-thirds.right-section.column {
+  padding: 0 20px 0 0;
+}
+/* Chart Classes
+************************/
+.google-visualization-table {
+  margin: 0 0 30px 0;
+}
