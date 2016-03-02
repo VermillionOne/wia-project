@@ -5,13 +5,13 @@ $(document).ready(function () {
 
   'use strict';
 
-  if (Modernizr.svg) {
-    $('.fighting-fish-image').css('display', 'none');
-    $('.fighting-fish').css('display', 'block');
-  } else {
-    $('.fighting-fish').css('display', 'none');
-    $('.fighting-fish-image').css('display', 'block');
-  }
+  // if (Modernizr.svg) {
+  //   $('.fighting-fish-image').css('display', 'none');
+  //   $('.fighting-fish').css('display', 'block');
+  // } else {
+  //   $('.fighting-fish').css('display', 'none');
+  //   $('.fighting-fish-image').css('display', 'block');
+  // }
 
   $('.section-title span').fadeIn(1000);
 
