@@ -146,7 +146,7 @@ a.navbar-link:hover {
 }
 .area-map {
   height: 340px;
-  background: url(/img/henderson-boulder-map.png) no-repeat top left;
+  background: url(img/henderson-boulder-map.png) no-repeat top left;
   background-size: 650px;
   border-radius: 3px;
 }
@@ -154,7 +154,7 @@ a.navbar-link:hover {
   margin: 0;
   height: 28px;
   width: 50px;
-  background: url(/img/sprite-sheet.png) no-repeat top left;
+  background: url(img/sprite-sheet.png) no-repeat top left;
   background-position: 0px -57px;
   background-size: 50px;
   position: absolute;
